@@ -30,10 +30,9 @@ public class MainActivity extends AppCompatActivity {
                 String accUsername = username.getText().toString();
                 String accPassword = password.getText().toString();
 
-                /*
-                    Validating the login form (If name or password is not entered)
-                 */
-                if(username.length() == 0) {
+                // Validating the login form (If name or password is not entered)
+
+                if (username.length() == 0) {
                     username.setError("Enter your Username");
                 } else if (password.length() == 0) {
                     password.setError("Enter your Password");
